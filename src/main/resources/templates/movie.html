@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movies</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="/">Home</a></li>
+    </ul>
+        <input id="searchInput" type="text">
+
+        <button id="searchButton">Submit</button>
+
+    <img id="poster">
+    <h1 id="title"></h1>
+    <p id="plot"></p>
+   
+
+    <hr>
+    <br>
+    <form:inputText name="userName" value="${user.name}" />
+</body>
+
+<script type="text/javascript" th:src="@{/js/main.js}"></script>
+
+</html>

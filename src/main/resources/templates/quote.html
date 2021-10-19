@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enums in Thymeleaf</title>
+</head>
+
+<body>
+    <h2>Hello from 'templates/templates-2'</h2>
+    <ul>
+        <li><a href="/">Home</a></li>
+    </ul>
+
+    <h1 th:text=${quote.text[1]}></h1>
+   
+
+    <hr>
+    <br>
+    <form:inputText name="userName" value="${user.name}" />
+</body>
+
+</html>
