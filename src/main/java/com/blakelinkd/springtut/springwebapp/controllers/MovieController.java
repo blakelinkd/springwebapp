@@ -21,7 +21,7 @@ public class MovieController {
         this.movieService = movieService;
     }
 
-    @RequestMapping("/movie")
+    @RequestMapping("/")
     public String getMovie(Model model) {
         model.addAttribute("movie", movieService.getMovie());
         return "movie";
